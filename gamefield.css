@@ -1,0 +1,23 @@
+.gameField {
+
+    width: 100px;
+
+    height: 100px;
+
+    background-color: #aaa;
+
+    margin: 10px;
+
+}
+
+.a {
+
+    background-color: #a88;
+
+}
+
+.b {
+
+    background-color: #8a8;
+
+}

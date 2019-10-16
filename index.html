@@ -1,157 +1,47 @@
+<!DOCTYPE html>
 <html>
 
+<head>
 
-    <head>
+    <script src="./game.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="./gamefield.css" />
 
-        <style>
+</head>
 
+<body>
+    <div class="game">
+        <div class="row">
 
-            .gameField{
+            <input type="button" onclick="play(0)" class="gameField" />
 
-                width: 100px;
+            <input type="button" onclick="play(1)" class="gameField" />
 
-                height: 100px;
-
-                background-color: #aaa;
-
-                margin: 10px;
-
-            }
-
-            .a{
-
-                background-color: #a88;
-
-            }
-
-            .b{
-
-                background-color: #8a8;
-
-            }
-
-
-        </style>
-
-
-        <script>
-
-
-            'use strict';
-
-
-            var state = [0,0,0,0,0,0,0,0,0];
-
-
-            var asTurn = true;
-
-
-            function play(i){
-
-                console.log(i, state);
-
-                if(state[i] == 0){
-
-                    state[i] = asTurn?1:2;
-
-                    document.getElementsByClassName("gameField")[i].classList.add(asTurn?'a':'b');
-
-                    var win;
-
-                    if(win = checkWin()){
-
-                        alert("Player "+win+" Wins!");
-
-                        state = [0,0,0,0,0,0,0,0,0];
-
-                        for(var button of document.getElementsByClassName("gameField")){
-
-                            button.classList.remove('a');
-
-                            button.classList.remove('b');
-
-                        } 
-
-                    }
-
-                    asTurn = !asTurn;
-
-                }
-
-            }
-
-
-            function checkWin(){
-
-                var win = 0;
-
-                for(var i=0; i<3; i++){
-
-                    if(state[i*3] == state[i*3+1] && state[i*3] == state[i*3+2]) return state[i*3];
-
-                }
-
-                for(var i=0; i<3; i++){
-
-                    if(state[i] == state[3+i] && state[i] == state[6+i]) return state[i];
-
-                }
-
-                if(state[0] == state[5] && state[4] == state[8]) return state[0];
-
-                if(state[2] == state[5] && state[4] == state[6]) return state[2];
-
-            }
-
-
-        </script>
-
-
-    </head>
-
-
-    <body>
-
-
-        <div class="game">
-
-
-            <div class="row">
-
-                <input type="button" onclick="play(0)" class="gameField" />
-
-                <input type="button" onclick="play(1)" class="gameField" />
-
-                <input type="button" onclick="play(2)" class="gameField" />
-
-            </div>
-
-            <div class="row">
-
-                <input type="button" onclick="play(3)" class="gameField" />
-
-                <input type="button" onclick="play(4)" class="gameField" />
-
-                <input type="button" onclick="play(5)" class="gameField" />
-
-            </div>
-
-            <div class="row">
-
-                <input type="button" onclick="play(6)" class="gameField" />
-
-                <input type="button" onclick="play(7)" class="gameField" />
-
-                <input type="button" onclick="play(8)" class="gameField" />
-
-            </div>
-
+            <input type="button" onclick="play(2)" class="gameField" />
 
         </div>
 
+        <div class="row">
 
-    </body>
-wa
-wa
-</html>wa
+            <input type="button" onclick="play(3)" class="gameField" />
+
+            <input type="button" onclick="play(4)" class="gameField" />
+
+            <input type="button" onclick="play(5)" class="gameField" />
+
+        </div>
+
+        <div class="row">
+
+            <input type="button" onclick="play(6)" class="gameField" />
+
+            <input type="button" onclick="play(7)" class="gameField" />
+
+            <input type="button" onclick="play(8)" class="gameField" />
+
+        </div>
+    </div>
+
+</body>
+
+</html>
