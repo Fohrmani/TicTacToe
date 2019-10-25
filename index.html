@@ -13,35 +13,57 @@
     <div class="game">
         <div class="row">
 
-            <input type="button" onclick="play(0)" class="gameField" />
+            <input type="button" id="0" onclick="play(0)" class="gameField" />
 
-            <input type="button" onclick="play(1)" class="gameField" />
+            <input type="button" id="1" onclick="play(1)" class="gameField" />
 
-            <input type="button" onclick="play(2)" class="gameField" />
-
-        </div>
-
-        <div class="row">
-
-            <input type="button" onclick="play(3)" class="gameField" />
-
-            <input type="button" onclick="play(4)" class="gameField" />
-
-            <input type="button" onclick="play(5)" class="gameField" />
+            <input type="button" id="2" onclick="play(2)" class="gameField" />
 
         </div>
 
         <div class="row">
 
-            <input type="button" onclick="play(6)" class="gameField" />
+            <input type="button" id="3" onclick="play(3)" class="gameField" />
 
-            <input type="button" onclick="play(7)" class="gameField" />
+            <input type="button" id="4" onclick="play(4)" class="gameField" />
 
-            <input type="button" onclick="play(8)" class="gameField" />
+            <input type="button" id="5" onclick="play(5)" class="gameField" />
+
+        </div>
+
+        <div class="row">
+
+            <input type="button" id="6" onclick="play(6)" class="gameField" />
+
+            <input type="button" id="7" onclick="play(7)" class="gameField" />
+
+            <input type="button" id="8" onclick="play(8)" class="gameField" />
 
         </div>
     </div>
 
-</body>
+    <h1 id="info"></h1>
+    <button id="restart" onclick="restart()">Restart</button>
 
-</html>
+
+
+    <button id="Choose"  onclick="Red()">O /Red</button>
+
+    <button id="Choose"  onclick="Green()">X /Green</button>
+
+
+    <button id="Matches" onclick="getMatches()">Get Matches</button>
+    
+
+    <h1 id="InfoMatches" onclick="joinMatch()">matches</h1>
+
+
+    <button id="newGame" onclick="newGame()">newGame</button>
+    <div id="table">
+    <table id="matchesTable" cellpadding="2" cellspacing="2"></table>
+    </div>
+    <button id="clear" onclick="removeTable()">Remove list</button>
+    <button id="addtable" onclick="addTable()">Add list</button>
+    
+
+</body>

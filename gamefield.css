@@ -1,23 +1,33 @@
 .gameField {
-
-    width: 100px;
+    width:  100px;
 
     height: 100px;
 
-    background-color: #aaa;
+    background-color: rgb(53, 51, 51);  
 
-    margin: 10px;
+    text-align: center;
+    
+    font-size: 35px; 
+    
+}
+
+
+.a{
+
+    background-color: green;
 
 }
 
-.a {
-
-    background-color: #a88;
-
+.b{
+    background-color: red;    
 }
 
-.b {
-
-    background-color: #8a8;
-
+.game{
+  
+    display: grid;
+    grid-template: "a a a ";
+    grid-row-end: 4;
+    grid-column-gap: 10px;
+    width: 300px;
+    height: 300px;
 }

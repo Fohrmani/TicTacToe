@@ -1,0 +1,16 @@
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\tictactoe.deps.json
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\tictactoe.runtimeconfig.json
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\tictactoe.runtimeconfig.dev.json
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\tictactoe.dll
+C:\Users\mariu\Desktop\backend\src\tictactoe\bin\Debug\netcoreapp2.2\tictactoe.pdb
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.csprojAssemblyReference.cache
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.RazorAssemblyInfo.cache
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.RazorAssemblyInfo.cs
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.AssemblyInfoInputs.cache
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.AssemblyInfo.cs
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.RazorTargetAssemblyInfo.cache
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.dll
+C:\Users\mariu\Desktop\backend\src\tictactoe\obj\Debug\netcoreapp2.2\tictactoe.pdb
